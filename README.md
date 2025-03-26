@@ -1,6 +1,8 @@
 # Kaitai Struct Compiler Docker Images
 
-Docker images for the [Kaitai Struct](https://kaitai.io) compiler
+Docker images for the [Kaitai Struct](https://kaitai.io) compiler.
+
+Published to Docker Hub as [`jonahsnider/kaitai-struct`](https://hub.docker.com/r/jonahsnider/kaitai-struct-compiler).
 
 ## Supported versions
 
