@@ -8,6 +8,7 @@ Published to Docker Hub as [`jonahsnider/kaitai-struct`](https://hub.docker.com/
 
 | Kaitai Struct Compiler version | Docker tag                       | Dockerfile                             |
 | ------------------------------ | -------------------------------- | -------------------------------------- |
+| v0.11                          | `jonahsnider/kaitai-struct:0.11` | [`0.11.Dockerfile`](./0.11.Dockerfile) |
 | v0.10                          | `jonahsnider/kaitai-struct:0.10` | [`0.10.Dockerfile`](./0.10.Dockerfile) |
 | v0.9                           | `jonahsnider/kaitai-struct:0.9`  | [`0.9.Dockerfile`](.`0.9.Dockerfile)   |
 | v0.8                           | `jonahsnider/kaitai-struct:0.8`  | [`0.8.Dockerfile`](.`0.8.Dockerfile)   |
