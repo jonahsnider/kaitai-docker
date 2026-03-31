@@ -1,0 +1,23 @@
+name: autofix.ci
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  autofix:
+    name: Autofix
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Git repository
+        uses: actions/checkout@v6
+
+      - name: Setup shfmt
+        uses: mfinelli/setup-shfmt@v2
+
+      - name: Format Dockerfiles
+        run: shfmt -w ./*.Dockerfile
+
+      - name: Run autofix.ci
+        uses: autofix-ci/action@v1
