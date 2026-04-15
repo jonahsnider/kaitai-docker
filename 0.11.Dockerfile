@@ -12,7 +12,7 @@ RUN unzip ./kaitai-struct-compiler-0.11.zip
 
 RUN rm -r ./kaitai-struct-compiler-0.11/formats
 
-FROM eclipse-temurin:21-jre-alpine
+FROM eclipse-temurin:21.0.10_7-jre-alpine
 
 COPY --from=builder /usr/local/kaitai-struct-compiler-0.11 /usr/local/kaitai-struct-compiler
 
