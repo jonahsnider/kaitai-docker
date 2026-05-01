@@ -10,7 +10,7 @@ RUN echo "7695ea661f4897d370354a532270410567edd9aa1c11c54a217387e7bc713078  ./ka
 
 RUN unzip ./kaitai-struct-compiler-0.2.zip
 
-FROM eclipse-temurin:25.0.2_10-jre-alpine
+FROM eclipse-temurin:25.0.3_9-jre-alpine
 
 COPY --from=builder /usr/local/kaitai-struct-compiler-0.2 /usr/local/kaitai-struct-compiler
 
